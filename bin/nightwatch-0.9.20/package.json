@@ -18,7 +18,7 @@
     "chai-nightwatch": "~0.1.x",
     "ejs": "2.5.7",
     "lodash.clone": "3.0.3",
-    "lodash.defaultsdeep": "4.3.2",
+    "lodash.defaultsdeep": "4.6.1",
     "minimatch": "3.0.3",
     "mkpath": "1.0.0",
     "mocha-nightwatch": "3.2.2",
