@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stim.nightwatch.test-ten.body"
+    errors="0" failures="0" hostname="" id="" package="test-ten" skipped="0"
+    tests="1" time="0.8010" timestamp="Fri, 06 Apr 2018 11:09:54 GMT">
+  
+    <testcase name="step one" classname="stim.nightwatch.test-ten.body" time="0.8010" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

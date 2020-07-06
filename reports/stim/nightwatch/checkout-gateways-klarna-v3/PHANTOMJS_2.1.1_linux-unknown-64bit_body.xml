@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="stim.nightwatch.checkout-gateways-klarna-v3.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-gateways-klarna-v3" skipped="0"
+    tests="9" time="58.81" timestamp="Thu, 19 Apr 2018 09:10:45 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="6.697" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="13.42" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="4.038" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Switch to Klarna Checkout" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="3.242" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Fill in Klarna basic email and postcode" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="9.126" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6) Fill in Klarna main form" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="7.283" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7) Fill in payment card information" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="2.710" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="8) Process purchase" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="1.111" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="9) Check thank you page" classname="stim.nightwatch.checkout-gateways-klarna-v3.body" time="11.18" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

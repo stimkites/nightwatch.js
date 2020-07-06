@@ -1,0 +1,16 @@
+
+[0;36m[Stim / Nightwatch / Yandex Test / Body] Test Suite[0m
+[0;35m=======================================================[0m
+
+Running:  [0;32mstep one[0m
+ [0;32m✔[0m Element <body> was visible after 42 milliseconds.
+ [0;32m✔[0m Element <button[type=submit]> was visible after 31 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.494s)
+
+Running:  [0;32mstep two[0m
+ [0;32m✔[0m Testing if element <ul[role=main]> contains text: "Nightwatch.js is an easy to use Node.js based End-to-End (E2E) testing solution for browser based apps and websites".
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (1.281s)
+
+[0;32mOK. 3  total assertions passed.[0m (2.868s)

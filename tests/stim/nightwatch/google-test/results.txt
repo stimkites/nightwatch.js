@@ -1,0 +1,10 @@
+
+[0;36m[Stim / Nightwatch / Google Test / Body] Test Suite[0m
+[0;35m=======================================================[0m
+
+Running:  [0;32mDemo Google test - check if we can read https[0m
+ [0;32m✔[0m Element <body> was visible after 28 milliseconds.
+ [0;32m✔[0m Passed [ok]: HTTPS was read successfully!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (360ms)
+

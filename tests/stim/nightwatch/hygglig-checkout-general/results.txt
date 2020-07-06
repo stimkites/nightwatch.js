@@ -1,0 +1,54 @@
+
+[0;36m[Stim / Nightwatch / Hygglig Checkout General / Body] Test Suite[0m
+[0;35m====================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <footer> was present after 84 milliseconds.
+ [0;32m✔[0m Passed [ok]: :wdc:1523957193460 ok Adding cart items...
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 25 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (810ms)
+
+Running:  [0;32m2) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+Current total: kr125.00
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (2.092s)
+
+Running:  [0;32m3) Fill in Hygglig checkout form[0m
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 29 milliseconds.
+ [0;32m✔[0m Testing if element <#EmailSearchField> is present.
+ [0;32m✔[0m Testing if element <#PostalCodeSearchField> is present.
+ [0;32m✔[0m Element <#btnNotYou> was visible after 540 milliseconds.
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (1.473s)
+
+Running:  [0;32m4) Choose payment method: credit card and proceed to purchase[0m
+ [0;32m✔[0m Element <#KortMethod > label> was visible after 25 milliseconds.
+ [0;32m✔[0m Element <#confirmButton> was visible after 27 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.885s)
+
+Running:  [0;32m5) Fill in credit card info and process payment[0m
+ [0;32m✔[0m Element <#cc> was visible after 27 milliseconds.
+{ sessionId: '6afab790-4221-11e8-9f4f-094546daa5f2',
+  status: 0,
+  value: 'https://securedt.dibspayment.com/verify/bin/mfs/index' }
+Butiksreferens
+2200032273
+ [0;32m✔[0m Element <#Complete> was visible after 28 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (990ms)
+
+Running:  [0;32m6) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <#post-43 > header > h1> was present after 8154 milliseconds.
+ [0;32m✔[0m Testing if element <#post-43 > header > h1> contains text: "Order received".
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 196 milliseconds.
+ [0;32m✔[0m Testing if element <body > div.container > h1> contains text: "Betalning genomförd!".
+125,00 kr
+
+[0;32mOK.[0m [0;32m5[0m assertions passed. (8.537s)
+
+[0;32mOK. 18  total assertions passed.[0m (15.885s)

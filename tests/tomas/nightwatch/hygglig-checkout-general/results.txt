@@ -1,0 +1,35 @@
+
+[0;36m[Tomas / Nightwatch / Hygglig Checkout General / Body] Test Suite[0m
+[0;35m=====================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <footer> was present after 11 milliseconds.
+ [0;32m✔[0m Passed [ok]: :wdc:1526567455414 ok Adding cart items...
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 35 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (1.114s)
+
+Running:  [0;32m2) Go to the checkout - it must not be empty[0m
+[0;31m ✖ ReferenceError: woocommerce is not defined[0m
+[0;90m    at Object.2) Go to the checkout - it must not be empty (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/tests/tomas/nightwatch/hygglig-checkout-general/body.js:43:36)
+    at Module.call (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/module.js:62:34)
+    at /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)[0m
+
+[0;31mFAILED: [0m [0;31m1[0m errors (7ms)
+
+[1;31m _________________________________________________[0m
+
+ [1;31mTEST FAILURE:[0m [0;31m1[0m error during execution,  [0;31m0[0m assertions failed, [0;32m4[0m passed. (1.203s)
+
+[0;31m ✖ tomas/nightwatch/hygglig-checkout-general/body[0m
+
+   - 2) Go to the checkout - it must not be empty [1;33m(7ms)[0m
+[0;36m   SKIPPED:[0m
+   - 3) Fill in Hygglig checkout form
+   - 4) Choose payment method: credit card and proceed to purchase
+   - 5) Fill in credit card info and process payment
+   - 6) Check thank you page
+
+

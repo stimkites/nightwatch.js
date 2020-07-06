@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="stim.nightwatch.checkout-gateways-stripe.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-gateways-stripe" skipped="0"
+    tests="7" time="39.46" timestamp="Mon, 16 Apr 2018 18:00:08 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.checkout-gateways-stripe.body" time="4.306" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-gateways-stripe.body" time="9.180" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-gateways-stripe.body" time="3.092" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Switch shipping method to DHL Express" classname="stim.nightwatch.checkout-gateways-stripe.body" time="2.378" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Switch to Stripe gateway and fill in the billing form" classname="stim.nightwatch.checkout-gateways-stripe.body" time="4.830" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6) Process purchase using Stripe test card" classname="stim.nightwatch.checkout-gateways-stripe.body" time="7.563" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7) Check thank you page" classname="stim.nightwatch.checkout-gateways-stripe.body" time="8.110" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

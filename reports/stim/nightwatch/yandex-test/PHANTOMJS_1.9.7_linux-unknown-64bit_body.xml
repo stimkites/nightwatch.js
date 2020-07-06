@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="stim.nightwatch.yandex-test.body"
+    errors="0" failures="0" hostname="" id="" package="yandex-test" skipped="0"
+    tests="2" time="2.284" timestamp="Tue, 10 Apr 2018 08:21:05 GMT">
+  
+    <testcase name="step one" classname="stim.nightwatch.yandex-test.body" time="0.9340" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step two" classname="stim.nightwatch.yandex-test.body" time="1.350" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="stim.nightwatch.checkout-klarna-v3.body"
+    errors="0" failures="1" hostname="" id="" package="checkout-klarna-v3" skipped="1"
+    tests="3" time="13.45" timestamp="Tue, 10 Apr 2018 07:54:46 GMT">
+  
+    <testcase name="1) Check if cart is empty" classname="stim.nightwatch.checkout-klarna-v3.body" time="1.229" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-klarna-v3.body" time="12.22" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.wc-forward&gt; to be present for 5000 milliseconds.">    at Object.2) Add new items to the cart (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/tests/stim/nightwatch/checkout-klarna-v3/body.js:47:16)
+    at Module.call (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/module.js:62:34)
+    at /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-klarna-v3.body">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

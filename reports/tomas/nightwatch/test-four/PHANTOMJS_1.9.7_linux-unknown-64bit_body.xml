@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tomas.nightwatch.test-four.body"
+    errors="0" failures="0" hostname="" id="" package="test-four" skipped="0"
+    tests="1" time="0.2460" timestamp="Sun, 08 Apr 2018 17:13:40 GMT">
+  
+    <testcase name="Demo Google test" classname="tomas.nightwatch.test-four.body" time="0.2460" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

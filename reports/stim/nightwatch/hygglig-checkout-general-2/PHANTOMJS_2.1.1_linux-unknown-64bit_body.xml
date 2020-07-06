@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="stim.nightwatch.hygglig-checkout-general-2.body"
+    errors="0" failures="0" hostname="" id="" package="hygglig-checkout-general-2" skipped="0"
+    tests="6" time="24.88" timestamp="Thu, 17 May 2018 15:03:31 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="1.835" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Go to the checkout - it must not be empty" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="3.257" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="3) Fill in Hygglig checkout form" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="1.381" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Choose payment method: credit card and proceed to purchase" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="3.211" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Fill in credit card info and process payment" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="1.844" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6) Check thank you page" classname="stim.nightwatch.hygglig-checkout-general-2.body" time="13.35" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

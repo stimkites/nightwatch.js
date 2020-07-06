@@ -1,0 +1,62 @@
+
+[0;36m[Stim / Nightwatch / Checkout Update / Body] Test Suite[0m
+[0;35m===========================================================[0m
+
+Running:  [0;32m1) Check if cart has items in cart[0m
+ [0;32m✔[0m Cart is empty!
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (3.731s)
+
+Running:  [0;32m2) Add new items to the cart[0m
+ [0;32m✔[0m Element <span.swatch-38.selected> was present after 16 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 26 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+ [0;32m✔[0m Element <span.swatch-41.selected> was present after 9 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 40 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+
+[0;32mOK.[0m [0;32m6[0m assertions passed. (8.126s)
+
+Running:  [0;32m3) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+ [0;32m✔[0m Passed [ok]: 638,64 € ok Checkout is not empty!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (2.987s)
+
+Running:  [0;32m4) Check for cart item quantity update[0m
+ [0;32m✔[0m Element <div.wtc-mini-cart p.woocommerce-mini-cart__total span.woocommerce-Price-amount> was visible after 24 milliseconds.
+ [0;32m✔[0m Passed [ok]: 638,64 € ok
+ [0;32m✔[0m Element <li.mini_cart_item:nth-child(1) > div:nth-child(4) > input:nth-child(1)> was visible after 29 milliseconds.
+ [0;32m✔[0m Passed [ok]: 1 ok  - current quantity
+ [0;32m✔[0m Element <li.mini_cart_item:nth-child(1) > div:nth-child(4) > input:nth-child(1)> was visible after 38 milliseconds.
+ [0;32m✔[0m Passed [ok]: 1 ok  - new actual quantity: 
+ [0;32m✔[0m Element <div.wtc-mini-cart p.woocommerce-mini-cart__total span.woocommerce-Price-amount> was visible after 26 milliseconds.
+ [0;32m✔[0m Passed [ok]: New total: 319,32 €
+
+[0;32mOK.[0m [0;32m8[0m assertions passed. (6.448s)
+
+Running:  [0;32m5) Check for shipping switch total update[0m
+ [0;32m✔[0m Element <div.wtc-mini-cart p.woocommerce-mini-cart__total span.woocommerce-Price-amount> was visible after 22 milliseconds.
+ [0;32m✔[0m Passed [ok]: 319,32 € ok
+[0;32m  Warn: WaitForElement found 2 elements for selector "li.shipping-method:not(.selected) input[type=radio]". Only the first one will be checked.[0m
+ [0;32m✔[0m Element <li.shipping-method:not(.selected) input[type=radio]> was visible after 21 milliseconds.
+ [0;32m✔[0m Element <div.wtc-mini-cart p.woocommerce-mini-cart__total span.woocommerce-Price-amount> was visible after 37 milliseconds.
+ [0;32m✔[0m Passed [ok]: New total: 338,61 €
+
+[0;32mOK.[0m [0;32m5[0m assertions passed. (3.204s)
+
+Running:  [0;32m6) Check for update totals on coupon apply[0m
+ [0;32m✔[0m Element <div.wtc-mini-cart p.woocommerce-mini-cart__total span.woocommerce-Price-amount> was visible after 14 milliseconds.
+ [0;32m✔[0m Passed [ok]: 338,61 € ok
+ [0;32m✔[0m No applied coupons
+ [0;32m✔[0m Element <.cart-discount > div:nth-child(1) > a:nth-child(1)> was visible after 21 milliseconds.
+ [0;32m✔[0m Element <form.checkout_coupon:nth-child(2) > p:nth-child(1) > input:nth-child(1)> was visible after 23 milliseconds.
+ [0;32m✔[0m Passed [ok]: rvip20 ok
+ [0;32m✔[0m Testing if element <div.cart-foldable form.checkout_coupon input[type=submit]> is present.
+ [0;32m✔[0m Element <div.cart-foldable form.checkout_coupon input[type=submit]> was not visible after 26 milliseconds.
+ [0;32m✔[0m No errors on applying coupon
+ [0;32m✔[0m Passed [ok]: New total: 274,75 €
+
+[0;32mOK.[0m [0;32m10[0m assertions passed. (4.961s)
+
+[0;32mOK. 32  total assertions passed.[0m (29.574s)

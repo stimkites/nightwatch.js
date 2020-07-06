@@ -1,0 +1,51 @@
+
+[0;36m[Stim / Nightwatch / Hygglig Checkout General 2 / Body] Test Suite[0m
+[0;35m======================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+[0;32m  Warn: WaitForElement found 2 elements for selector "footer". Only the first one will be checked.[0m
+ [0;32m✔[0m Element <footer> was present after 21 milliseconds.
+ [0;32m✔[0m Cart is not empty!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.835s)
+
+Running:  [0;32m2) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+Current total: 25,00 kr
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (3.257s)
+
+Running:  [0;32m3) Fill in Hygglig checkout form[0m
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 53 milliseconds.
+ [0;32m✔[0m Testing if element <#EmailSearchField> is present.
+ [0;32m✔[0m Testing if element <#PostalCodeSearchField> is present.
+ [0;32m✔[0m Element <#btnNotYou> was visible after 543 milliseconds.
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (1.381s)
+
+Running:  [0;32m4) Choose payment method: credit card and proceed to purchase[0m
+ [0;32m✔[0m Element <#KortMethod > label> was visible after 27 milliseconds.
+ [0;32m✔[0m Element <#confirmButton> was visible after 49 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (3.211s)
+
+Running:  [0;32m5) Fill in credit card info and process payment[0m
+ [0;32m✔[0m Element <#cc> was visible after 22 milliseconds.
+{ sessionId: '769dc720-59e3-11e8-88a6-df1d23366936',
+  status: 0,
+  value: 'https://securedt.dibspayment.com/verify/bin/mfs/index' }
+Butiksreferens
+2200032393
+ [0;32m✔[0m Element <#Complete> was visible after 19 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.844s)
+
+Running:  [0;32m6) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 13050 milliseconds.
+ [0;32m✔[0m Testing if element <body > div.container > h1> contains text: "Betalning genomförd!".
+25,00 kr
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (13.349s)
+
+[0;32mOK. 14  total assertions passed.[0m (24.98s)

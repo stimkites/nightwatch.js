@@ -1,0 +1,15 @@
+
+[0;36m[Stim / Nightwatch / Phantomjs Ajax / Body] Test Suite[0m
+[0;35m==========================================================[0m
+
+Running:  [0;32m1. dev.printer.se[0m
+ [0;32m✔[0m Element <footer> was visible after 37 milliseconds.
+ [0;32m✔[0m Element <p.price > span:nth-child(1)> was visible after 40 milliseconds.
+ [0;32m✔[0m Passed [ok]: 1 815,00 kr ok
+ [0;32m✔[0m Element <input[name=sync-quantity]> was visible after 39 milliseconds.
+ [0;32m✔[0m Passed [ok]: 32
+ [0;32m✔[0m Element <p.price > span:nth-child(1)> was visible after 24 milliseconds.
+ [0;32m✔[0m Passed [ok]: New price: 1 936,00 kr
+
+[0;32mOK.[0m [0;32m7[0m assertions passed. (5.85s)
+

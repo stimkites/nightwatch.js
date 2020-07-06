@@ -1,0 +1,58 @@
+
+[0;36m[Stim / Nightwatch / Checkout Gateways Stripe / Body] Test Suite[0m
+[0;35m====================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <body> was present after 12 milliseconds.
+ [0;32m✔[0m Cart is emptied!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (4.306s)
+
+Running:  [0;32m2) Add new items to the cart[0m
+ [0;32m✔[0m Element <span.swatch-39.selected> was present after 8 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 25 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+ [0;32m✔[0m Element <span.swatch-40.selected> was present after 10 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 27 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+
+[0;32mOK.[0m [0;32m6[0m assertions passed. (9.18s)
+
+Running:  [0;32m3) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+ [0;32m✔[0m Passed [ok]: 702,85 € ok Checkout is not empty!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (3.092s)
+
+Running:  [0;32m4) Switch shipping method to DHL Express[0m
+ [0;32m✔[0m Element <#shipping_method > li > label[for=wtc_shipping_method_0_flat_rate3] > span.shipping-label> was visible after 26 milliseconds.
+ [0;32m✔[0m DHL Express selected!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (2.378s)
+
+Running:  [0;32m5) Switch to Stripe gateway and fill in the billing form[0m
+ [0;32m✔[0m Element <#wtc_checkout_payment_selector > ul > li > label[for=wtc_payment_method_stripe]> was visible after 21 milliseconds.
+ [0;32m✔[0m Element <#wtc_payment_method_stripe[checked]> was present after 1455 milliseconds.
+ [0;32m✔[0m Element <#billing_first_name> was visible after 23 milliseconds.
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (4.83s)
+
+Running:  [0;32m6) Process purchase using Stripe test card[0m
+ [0;32m✔[0m Element <body > iframe.stripe_checkout_app> was present after 1594 milliseconds.
+ [0;32m✔[0m Element <#card_number> was visible after 24 milliseconds.
+ [0;32m✔[0m Passed [ok]: 4242 4242 4242 4242 ok
+ [0;32m✔[0m Passed [ok]: 12 / 19 ok
+ [0;32m✔[0m Passed [ok]: 123 ok
+ [0;32m✔[0m Testing if element <div.cardPaymentView .invalid> is not present.
+ [0;32m✔[0m Element <#submitButton> was not present after 4320 milliseconds.
+
+[0;32mOK.[0m [0;32m7[0m assertions passed. (7.563s)
+
+Running:  [0;32m7) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <div.woocommerce p.woocommerce-thankyou-order-received> was present after 8054 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce p.woocommerce-thankyou-order-received> contains text: "Thank you. Your order has been received.".
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (8.11s)
+
+[0;32mOK. 25  total assertions passed.[0m (39.587s)

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stim.nightwatch.checkout-country-shipping.body"
+    errors="1" failures="0" hostname="" id="" package="checkout-country-shipping" skipped="0"
+    tests="1" time="0.01100" timestamp="Wed, 18 Apr 2018 12:34:15 GMT">
+  
+    <testcase name="TEST 1. RESCHIA" classname="stim.nightwatch.checkout-country-shipping.body" time="0.01100" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Stim / Nightwatch / Checkout Country Shipping / Body / TEST 1. RESCHIA]:
+
+  ReferenceError: checkout is not defined
+    at Object.TEST 1. RESCHIA (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/tests/stim/nightwatch/checkout-country-shipping/body.js:62:14)
+    at Module.call (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/module.js:62:34)
+    at /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/master/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/master/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/master/node_modules/q/q.js:796:13)
+    at /home/master/node_modules/q/q.js:556:49
+    at runSingle (/home/master/node_modules/q/q.js:137:13)
+    at flush (/home/master/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

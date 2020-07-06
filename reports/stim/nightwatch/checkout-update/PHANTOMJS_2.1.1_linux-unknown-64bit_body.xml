@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="stim.nightwatch.checkout-update.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-update" skipped="0"
+    tests="6" time="29.46" timestamp="Thu, 12 Apr 2018 19:27:35 GMT">
+  
+    <testcase name="1) Check if cart has items in cart" classname="stim.nightwatch.checkout-update.body" time="3.731" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-update.body" time="8.126" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-update.body" time="2.987" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Check for cart item quantity update" classname="stim.nightwatch.checkout-update.body" time="6.448" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Check for shipping switch total update" classname="stim.nightwatch.checkout-update.body" time="3.204" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6) Check for update totals on coupon apply" classname="stim.nightwatch.checkout-update.body" time="4.961" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

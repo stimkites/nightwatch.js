@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="6">
+
+  <testsuite name="tomas.nightwatch.hygglig-checkout-general.body"
+    errors="1" failures="0" hostname="" id="" package="hygglig-checkout-general" skipped="4"
+    tests="6" time="1.121" timestamp="Thu, 17 May 2018 14:30:54 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="tomas.nightwatch.hygglig-checkout-general.body" time="1.114" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Go to the checkout - it must not be empty" classname="tomas.nightwatch.hygglig-checkout-general.body" time="0.007000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Tomas / Nightwatch / Hygglig Checkout General / Body / 2) Go to the checkout - it must not be empty]:
+
+  ReferenceError: woocommerce is not defined
+    at Object.2) Go to the checkout - it must not be empty (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/tests/tomas/nightwatch/hygglig-checkout-general/body.js:43:36)
+    at Module.call (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/module.js:62:34)
+    at /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/master/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/master/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/master/node_modules/q/q.js:796:13)
+    at /home/master/node_modules/q/q.js:556:49
+    at runSingle (/home/master/node_modules/q/q.js:137:13)
+    at flush (/home/master/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="3) Fill in Hygglig checkout form" classname="tomas.nightwatch.hygglig-checkout-general.body">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="4) Choose payment method: credit card and proceed to purchase" classname="tomas.nightwatch.hygglig-checkout-general.body">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="5) Fill in credit card info and process payment" classname="tomas.nightwatch.hygglig-checkout-general.body">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="6) Check thank you page" classname="tomas.nightwatch.hygglig-checkout-general.body">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

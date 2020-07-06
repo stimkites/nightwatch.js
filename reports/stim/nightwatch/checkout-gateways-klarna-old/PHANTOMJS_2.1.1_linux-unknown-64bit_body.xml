@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="stim.nightwatch.checkout-gateways-klarna-old.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-gateways-klarna-old" skipped="0"
+    tests="9" time="48.68" timestamp="Fri, 13 Apr 2018 15:29:48 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="5.420" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="11.96" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="1.394" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Switch to Klarna Checkout" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="18.41" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Reset Klarna form" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="1.272" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="6) Fill in Klarna national ID form" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="3.843" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7) Fill in Klarna main form" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="0.000" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="8) Process purchase" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="1.501" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="9) Check thank you page" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="4.878" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stim.nightwatch.gapexperten.body"
+    errors="0" failures="0" hostname="" id="" package="gapexperten" skipped="0"
+    tests="1" time="16.79" timestamp="Wed, 12 Sep 2018 11:45:38 GMT">
+  
+    <testcase name="TEST TYPE: products. Testing product #2053" classname="stim.nightwatch.gapexperten.body" time="16.79" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

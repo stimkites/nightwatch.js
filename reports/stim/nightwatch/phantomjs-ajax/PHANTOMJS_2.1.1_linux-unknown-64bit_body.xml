@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stim.nightwatch.phantomjs-ajax.body"
+    errors="0" failures="0" hostname="" id="" package="phantomjs-ajax" skipped="0"
+    tests="1" time="5.850" timestamp="Wed, 11 Apr 2018 15:54:37 GMT">
+  
+    <testcase name="1. dev.printer.se" classname="stim.nightwatch.phantomjs-ajax.body" time="5.850" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

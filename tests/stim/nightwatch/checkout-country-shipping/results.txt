@@ -1,0 +1,39 @@
+
+[0;36m[Stim / Nightwatch / Checkout Country Shipping / Body] Test Suite[0m
+[0;35m=====================================================================[0m
+
+Running:  [0;32mTEST 2. KLARNA V3 ON CHECKOUT.WETAIL.IO[0m
+1. Clearing cookies...
+ [0;32m✔[0m Element <#wtc_block> was present after 13 milliseconds.
+ [0;32m✔[0m Element <#wtc_block> was present after 10 milliseconds.
+ [0;32m✔[0m Passed [ok]: http://checkout.wetail.io/checkout/ ok Testing checkout URL
+ [0;32m✔[0m Cookies were cleared
+2. Adding items to the cart...
+ [0;32m✔[0m Element <button.single_add_to_cart_button> was visible after 34 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 21 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+ [0;32m✔[0m Element <button.single_add_to_cart_button> was visible after 34 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 40 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+3. Go to checkout, confirm it's not empty...
+ [0;32m✔[0m Element <body> was visible after 151 milliseconds.
+ [0;32m✔[0m Testing if element <p.empty-link> is not present.
+ [0;32m✔[0m Passed [ok]: 713,48 € ok
+4. Switching to Klarna V3...
+ [0;32m✔[0m Passed [ok]: 1 ok KCO selected
+ [0;32m✔[0m Element <#klarna-checkout-iframe> was visible after 44 milliseconds.
+5. Fill in Klarna form and switch to Germany...
+ [0;32m✔[0m Element <#challenge-fieldset > div:nth-child(2) > div:nth-child(2) > button> was visible after 35 milliseconds.
+ [0;32m✔[0m Passed [ok]: Germany
+ [0;32m✔[0m Element <div#wtc_block> was not visible after 513 milliseconds.
+6. Checking shipping methods visible
+ [0;32m✔[0m Passed [ok]: true ok [ 'Free shipping', 'DHL Express', 'UPS' ]
+7. Selecting Sweden in Klarna...
+ [0;32m✔[0m Passed [ok]: Sweden
+ [0;32m✔[0m Element <div#wtc_block> was not visible after 20 milliseconds.
+8. Checking shipping methods visible
+ [0;32m✔[0m Passed [ok]: true ok [ 'Free shipping', 'DHL Express', 'Postnord', 'Free shipping' ]
+TEST 2. All steps completed!
+
+[0;32mOK.[0m [0;32m22[0m assertions passed. (28.527s)
+

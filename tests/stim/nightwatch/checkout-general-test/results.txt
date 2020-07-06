@@ -1,0 +1,29 @@
+
+[0;36m[Stim / Nightwatch / Checkout General Test / Body] Test Suite[0m
+[0;35m=================================================================[0m
+
+Running:  [0;32m1) Check if cart is empty[0m
+ [0;32m✔[0m Cart has items!
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (2.164s)
+
+Running:  [0;32m2) Add new items to the cart[0m
+ [0;32m✔[0m Element <span.swatch-41.selected> was present after 25 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 37 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+ [0;32m✔[0m Element <span.swatch-40.selected> was present after 25 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 34 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+ [0;32m✔[0m Element <span.swatch-39.selected> was present after 16 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 37 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "has been added to your cart".
+
+[0;32mOK.[0m [0;32m9[0m assertions passed. (13.456s)
+
+Running:  [0;32m3) Go to the checkout - it must not be empty[0m
+[0;32m  Warn: WaitForElement found 4 elements for selector "li.mini_cart_item a.remove". Only the first one will be checked.[0m
+ [0;32m✔[0m Checkout is not empty!
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (1.333s)
+
+[0;32mOK. 11  total assertions passed.[0m (17.046s)

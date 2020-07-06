@@ -1,0 +1,26 @@
+
+[0;36m[Stim / Nightwatch / Gapexperten / Body] Test Suite[0m
+[0;35m=======================================================[0m
+
+Running:  [0;32mTEST TYPE: products. Testing product #2053[0m
+ [0;32m✔[0m Element <body> was present after 101 milliseconds.
+ [0;32m✔[0m Cart is emptied!
+ [0;32m✔[0m Proceeded to cart url!
+ [0;32m✔[0m Item #2053 is added to the cart!
+ [0;32m✔[0m Found shipping calculator form!
+ [0;32m✔[0m Ready to input shipping details!
+ [0;32m✔[0m Country is set to SE
+ [0;32m✔[0m Shipping calculated!
+ [0;32m✔[0m SE test 1 OK! Proceeding to SE test 2...
+ [0;32m✔[0m Ready to input shipping details!
+ [0;32m✔[0m Shipping calculated!
+ [0;32m✔[0m SE test 2 OK! Proceeding to EU test...
+ [0;32m✔[0m Found shipping calculator form!
+ [0;32m✔[0m Ready to input shipping details!
+ [0;32m✔[0m Country is set to CZ
+ [0;32m✔[0m Shipping calculated!
+ [0;32m✔[0m EU test OK!
+ ***** Tests on product #2053 are completed successfully! ***** 
+
+[0;32mOK.[0m [0;32m17[0m assertions passed. (16.794s)
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="stim.nightwatch.checkout-gateways-klarna-old.body"
+    errors="1" failures="0" hostname="" id="" package="checkout-gateways-klarna-old" skipped="3"
+    tests="4" time="0.01000" timestamp="Fri, 13 Apr 2018 11:34:23 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.checkout-gateways-klarna-old.body" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Stim / Nightwatch / Checkout Gateways Klarna Old / Body / 1) Clean-up the cart]:
+
+  TypeError: browser.deleteCookies.end is not a function
+    at Object.1) Clean-up the cart (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/tests/stim/nightwatch/checkout-gateways-klarna-old/body.js:19:13)
+    at Module.call (/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/module.js:62:34)
+    at /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/nightwatch-0.9.20/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/master/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/master/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/master/node_modules/q/q.js:796:13)
+    at /home/master/node_modules/q/q.js:556:49
+    at runSingle (/home/master/node_modules/q/q.js:137:13)
+    at flush (/home/master/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="2) Add new items to the cart" classname="stim.nightwatch.checkout-gateways-klarna-old.body">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-gateways-klarna-old.body">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="4) Switch to Klarna Checkout" classname="stim.nightwatch.checkout-gateways-klarna-old.body">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

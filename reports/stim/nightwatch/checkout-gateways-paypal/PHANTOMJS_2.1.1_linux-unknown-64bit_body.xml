@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="stim.nightwatch.checkout-gateways-paypal.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-gateways-paypal" skipped="0"
+    tests="9" time="143.0" timestamp="Thu, 19 Apr 2018 09:57:34 GMT">
+  
+    <testcase name="1) Clean-up the cart" classname="stim.nightwatch.checkout-gateways-paypal.body" time="8.026" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="2) Add new items to the cart" classname="stim.nightwatch.checkout-gateways-paypal.body" time="8.978" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="3) Go to the checkout - it must not be empty" classname="stim.nightwatch.checkout-gateways-paypal.body" time="4.082" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="4) Switch to PayPal gateway" classname="stim.nightwatch.checkout-gateways-paypal.body" time="2.284" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="5) Select country - UK" classname="stim.nightwatch.checkout-gateways-paypal.body" time="7.152" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="6) Switch shipping method to DHL Express" classname="stim.nightwatch.checkout-gateways-paypal.body" time="7.049" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="7) Fill in the billing form" classname="stim.nightwatch.checkout-gateways-paypal.body" time="11.46" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="8) Process purchase on PayPal server" classname="stim.nightwatch.checkout-gateways-paypal.body" time="91.61" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="9) Check thank you page" classname="stim.nightwatch.checkout-gateways-paypal.body" time="2.400" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

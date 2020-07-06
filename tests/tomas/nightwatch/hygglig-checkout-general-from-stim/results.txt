@@ -1,0 +1,59 @@
+
+[0;36m[Tomas / Nightwatch / Hygglig Checkout General From Stim / Body] Test Suite[0m
+[0;35m===============================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <footer> was present after 11 milliseconds.
+ [0;32m✔[0m Passed [ok]: :wdc:1527683545458 ok Adding cart items...
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 34 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce-message> contains text: "har lagts i din varukorg".
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (1.542s)
+
+Running:  [0;32m2) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+Current total: DIN VARUKORG
+Tshirt
+22,50 kr
+Frakt
+Flat rate 125,00 kr (inkl. moms)
+Flat rate 23 12,50 kr (inkl. moms)
+Totalbelopp inkl. moms 147,50 kr
+Har du en rabattkod?
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (1.931s)
+
+Running:  [0;32m3) Fill in Hygglig checkout form[0m
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 71 milliseconds.
+ [0;32m✔[0m Testing if element <#EmailSearchField> is present.
+ [0;32m✔[0m Testing if element <#PostalCodeSearchField> is present.
+ [0;32m✔[0m Element <#btnNotYou> was visible after 536 milliseconds.
+
+[0;32mOK.[0m [0;32m4[0m assertions passed. (1.54s)
+
+Running:  [0;32m4) Choose payment method: credit card and proceed to purchase[0m
+ [0;32m✔[0m Element <#KortMethod > label> was visible after 23 milliseconds.
+ [0;32m✔[0m Element <#confirmButton> was visible after 20 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (860ms)
+
+Running:  [0;32m5) Fill in credit card info and process payment[0m
+ [0;32m✔[0m Element <#cc> was visible after 738 milliseconds.
+{ sessionId: '817da7b0-6405-11e8-88a6-df1d23366936',
+  status: 0,
+  value: 'https://securedt.dibspayment.com/verify/bin/mfs/index' }
+Butiksreferens
+2200032505
+ [0;32m✔[0m Element <#Complete> was visible after 20 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.37s)
+
+Running:  [0;32m6) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <#HyggligCheckoutIframe> was visible after 10855 milliseconds.
+ [0;32m✔[0m Testing if element <body > div.container > h1> contains text: "Betalning genomförd!".
+147,50 kr
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (11.074s)
+
+[0;32mOK. 16  total assertions passed.[0m (18.44s)

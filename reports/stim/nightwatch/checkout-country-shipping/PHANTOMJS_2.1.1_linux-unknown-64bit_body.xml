@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="stim.nightwatch.checkout-country-shipping.body"
+    errors="0" failures="0" hostname="" id="" package="checkout-country-shipping" skipped="0"
+    tests="1" time="28.53" timestamp="Thu, 19 Apr 2018 08:44:26 GMT">
+  
+    <testcase name="TEST 2. KLARNA V3 ON CHECKOUT.WETAIL.IO" classname="stim.nightwatch.checkout-country-shipping.body" time="28.53" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

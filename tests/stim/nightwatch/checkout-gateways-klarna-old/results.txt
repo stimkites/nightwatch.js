@@ -1,0 +1,74 @@
+
+[0;36m[Stim / Nightwatch / Checkout Gateways Klarna Old / Body] Test Suite[0m
+[0;35m========================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <body> was present after 479 milliseconds.
+ [0;32m✔[0m Cart is emptied!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (5.42s)
+
+Running:  [0;32m2) Add new items to the cart[0m
+ [0;32m✔[0m Element <span.swatch-37.selected> was present after 8 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 29 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+ [0;32m✔[0m Element <span.swatch-40.selected> was present after 13 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 27 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+ [0;32m✔[0m Element <span.swatch-36.selected> was present after 14 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 28 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+
+[0;32mOK.[0m [0;32m9[0m assertions passed. (11.963s)
+
+Running:  [0;32m3) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+ [0;32m✔[0m Passed [ok]: 926,67 € ok Checkout is not empty!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (1.394s)
+
+Running:  [0;32m4) Switch to Klarna Checkout[0m
+ [0;32m✔[0m Passed [ok]: DE ok Switching to Sweden for Klarna...
+ [0;32m✔[0m Passed [ok]: Sweden
+ [0;32m✔[0m Element <#wtc_checkout_payment_selector > ul > li > label[for=wtc_payment_method_klarna_checkout]> was visible after 36 milliseconds.
+ [0;32m✔[0m Element <#wtc_payment_method_klarna_checkout[checked]> was present after 11 milliseconds.
+6390,00 KR
+ [0;32m✔[0m Element <#wtc_checkout_checkout_area > div.klarna_checkout> was visible after 22 milliseconds.
+ [0;32m✔[0m Element <#klarna-checkout-container> was visible after 23 milliseconds.
+ [0;32m✔[0m Klarna state
+{ sessionId: '80577c30-3f2f-11e8-97e9-0d26ec60a650',
+  status: 0,
+  value: true }
+ [0;32m✔[0m Passed [ok]: Klarna is ready to be filled up! SUCCESS!
+
+[0;32mOK.[0m [0;32m8[0m assertions passed. (18.412s)
+
+Running:  [0;32m5) Reset Klarna form[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (1.272s)
+
+Running:  [0;32m6) Fill in Klarna national ID form[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done
+ [0;32m✔[0m Element <input[name=email]> was visible after 95 milliseconds.
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (3.843s)
+
+Running:  [0;32m7) Fill in Klarna main form[0m
+ [0;32m✔[0m Passed [ok]: No need
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (0ms)
+
+Running:  [0;32m8) Process purchase[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done
+
+[0;32mOK.[0m [0;32m1[0m assertions passed. (1.501s)
+
+Running:  [0;32m9) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <div#klarna-checkout-container> was present after 3817 milliseconds.
+ [0;32m✔[0m Testing if element <#section-header > div:nth-child(4) > div > h1> contains text: "Your order has been placed.".
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (4.878s)
+
+[0;32mOK. 29  total assertions passed.[0m (48.814s)

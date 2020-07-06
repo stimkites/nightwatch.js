@@ -1,0 +1,75 @@
+
+[0;36m[Stim / Nightwatch / Checkout Gateways Paypal / Body] Test Suite[0m
+[0;35m====================================================================[0m
+
+Running:  [0;32m1) Clean-up the cart[0m
+ [0;32m✔[0m Element <body> was present after 12 milliseconds.
+ [0;32m✔[0m Cart is emptied!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (8.026s)
+
+Running:  [0;32m2) Add new items to the cart[0m
+ [0;32m✔[0m Element <span.swatch-36.selected> was present after 15 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 30 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+ [0;32m✔[0m Element <span.swatch-37.selected> was present after 8 milliseconds.
+ [0;32m✔[0m Element <div.woocommerce-message> was visible after 26 milliseconds.
+ [0;32m✔[0m Item added to the cart!
+
+[0;32mOK.[0m [0;32m6[0m assertions passed. (8.978s)
+
+Running:  [0;32m3) Go to the checkout - it must not be empty[0m
+ [0;32m✔[0m Checkout is not empty!
+ [0;32m✔[0m Passed [ok]: 713,48 € ok Checkout is not empty!
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (4.082s)
+
+Running:  [0;32m4) Switch to PayPal gateway[0m
+ [0;32m✔[0m Element <#wtc_checkout_payment_selector > ul > li > label[for=wtc_payment_method_paypal]> was visible after 30 milliseconds.
+ [0;32m✔[0m Element <#wtc_payment_method_paypal[checked]> was present after 1904 milliseconds.
+ [0;32m✔[0m PayPal is selected!
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (2.284s)
+
+Running:  [0;32m5) Select country - UK[0m
+ [0;32m✔[0m Element <div#wtc_block> was not visible after 24 milliseconds.
+ [0;32m✔[0m Passed [ok]: United Kingdom (UK)
+ [0;32m✔[0m Element <div#wtc_block> was not visible after 15 milliseconds.
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (7.152s)
+
+Running:  [0;32m6) Switch shipping method to DHL Express[0m
+ [0;32m✔[0m Passed [ok]: true ok [ 'Free shipping', 'DHL Express', 'UPS' ]
+ [0;32m✔[0m Element <label[for=wtc_shipping_method_0_flat_rate3]> was visible after 783 milliseconds.
+ [0;32m✔[0m DHL Express selected!
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (7.049s)
+
+Running:  [0;32m7) Fill in the billing form[0m
+ [0;32m✔[0m Element <#billing_first_name> was visible after 17 milliseconds.
+ [0;32m✔[0m Passed [ok]: { sessionId: '15435da0-43b8-11e8-88d0-0b289ccf0cf5',
+  status: 0,
+  value: 'http://checkout.wetail.io/checkout/' } ok
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (11.461s)
+
+Running:  [0;32m8) Process purchase on PayPal server[0m
+ [0;32m✔[0m Element <#btnLogin> was visible after 7321 milliseconds.
+ [0;32m✔[0m Passed [ok]: Log in to your account ok
+ [0;32m✔[0m Element <#email> was visible after 25 milliseconds.
+ [0;32m✔[0m Element <#confirmButtonTop> was visible after 11711 milliseconds.
+Hej test!
+ [0;32m✔[0m Element <#merchantReturnBtn> was visible after 8740 milliseconds.
+Paid amount: 356,74 EUR
+Paid actual amount: 486,08 USD
+
+[0;32mOK.[0m [0;32m5[0m assertions passed. (1m 31s / 91606ms)
+
+Running:  [0;32m9) Check thank you page[0m
+ [0;32m✔[0m Passed [ok]: 1 ok Done. All tests completed.
+ [0;32m✔[0m Element <div.woocommerce p.woocommerce-thankyou-order-received> was present after 2223 milliseconds.
+ [0;32m✔[0m Testing if element <div.woocommerce p.woocommerce-thankyou-order-received> contains text: "Thank you. Your order has been received.".
+
+[0;32mOK.[0m [0;32m3[0m assertions passed. (2.4s)
+
+[0;32mOK. 29  total assertions passed.[0m (2m 23s)
