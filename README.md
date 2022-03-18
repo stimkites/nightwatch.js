@@ -12,6 +12,9 @@ window where you see the execution results.
 
 https://nightwatch.stage.wetail.io/ 
 
+To login - use `casper`:`friday13`
+
+
 ### Tips
 
 -   Make sure Selenium server is running.
