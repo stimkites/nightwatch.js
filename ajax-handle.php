@@ -20,7 +20,7 @@ class _Ajax{
      */
     public static function init(){
         if (isset($_POST['nwc_ajax']) || isset($_GET['nwc_ajax']))
-            die( json_encode( self::handle_ajax( isset($_POST['nwc_ajax'])?$_POST['nwc_ajax']:$_GET['nwc_ajax'] ) ) );
+            die( json_encode( self::handle_ajax( $_POST['nwc_ajax']?:$_GET['nwc_ajax'] ) ) );
     }
 
     /**
@@ -63,9 +63,9 @@ class _Ajax{
 
             case'check_server':
                 $r = @file_get_contents('http://localhost:5557/wd/hub/status');
-                if(!$r)
+                if( ! $r )
                     return 'Status: not running. <b><a class="run-server" title="Try to launch Selenium server">Run</a></b>';
-                $r = json_decode($r);
+                $r = json_decode( $r );
             return 'Status: ' . ( false === strpos( $r->value->message, 'No spare' )
                                     ? '<span class="status-green">' . $r->value->message . '</span>'
                                     : '<span class="status-warning">' . $r->value->message

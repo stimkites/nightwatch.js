@@ -212,7 +212,13 @@ var nwc_js = (function($){
                 matchBrackets: true,
                 theme:'dracula',
                 extraKeys: {
+                    "Alt-Enter": function( cm ) {
+                        toggle_fullscreen( !cm.getOption("fullScreen") );
+                    },
                     "F11": function( cm ) {
+                        toggle_fullscreen( !cm.getOption("fullScreen") );
+                    },
+                    "Ctrl-Space": function( cm ) {
                         toggle_fullscreen( !cm.getOption("fullScreen") );
                     },
                     "Esc": function(cm) {

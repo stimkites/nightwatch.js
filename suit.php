@@ -33,45 +33,36 @@
 <section class="container">
     <h1>Nightwatch and Casper .js tests suite</h1>
 
-    <div class="container50">
+    <div class="container40">
         <div class="list-container">
             <h3>Selenium server state</h3>
             <ul>
                 <li id="selenium-state">Status: checking...</li>
-                <li>Java JDK: 1.8.0</li>
-                <li>CasperJS: 1.1.4, NightwatchJS: 0.9.20</li>
-                <li>SlimerJS: 1.0.0, PhantomJS version: 2.1.1</li>
-                <li>Geckodriver: 0.20, Ghostdriver: 1.3.0</li>
+                <li>Java JDK: 1.8.0, CasperJS: 1.1.4</li>
+                <li>NightwatchJS: 2.1.0</li>
+                <li>SlimerJS: 1.0.0, PhantomJS: 2.1.1</li>
+                <li>Geckodriver: 0.3.0, Ghostdriver: 1.3.0</li>
             </ul>
         </div>
         <div class="list-container">
-            <h3>Currently created tests<span class="search-tests"><input type="text" value="" placeholder="Search"/><a class="reset-search">Reset</a></span></h3>
+            <h3>Tests to run<span class="search-tests"><input type="text" value="" placeholder="Search"/><a class="reset-search">Reset</a></span></h3>
             <div id="tests"><ul><li>Fetching...</li></ul></div>
         </div>
         <div class="list-container">
             <h3>Tips</h3>
-            <ul>
-                <li>Make sure Selenium server is running.</li>
-                <li>Before running tests, choose what it's type</li>
-                <li>Define browser you want to run it into</li>
-                <li>Explicit save command - CTRL + S</li>
-                <li>While editing your code, press F11 to toggle fullscreen mode</li>
-                <li>ALT + F9 - run test immediately, ALT + F8 - toggle output panel</li>
-                <li>To duplicate line in editor, use CTRL + D</li>
-                <li>Use Esc key to exit from fullscreen mode and stop test immediately</li>
-                <li>CTRL + R - replace, CTRL + F - find text in code</li>
-                <li>If you are in fullscreen mode, autosave every 30 seconds is engaged</li>
-                <li>Every test is automatically saved under your user name in specified .js type</li>
-                <li>If test is frozen or browser does not respond, just refresh the page</li>
-                <li>Test execution is limited by 10 minutes</li>
-                <li>If everything is completely frozen - stop the Selenium server and run it again</li>
-                <li>Before deleting any tests, please, make sure it's yours or you are allowed to do it.</li>
-                <li>Have fun and enjoy!</li>
-            </ul>
+            <?php
+            // Tips are taken from readme
+            include "inc/php/MDParse.php";
+            $parser = new MDParse();
+            $content = file_get_contents( "README.md" );
+            $tips_start = strpos( $content, '### Tips' ) + 8;
+            $tips_end = strpos( $content, '### Version log' );
+            echo $parser->parse( substr( $content, $tips_start, $tips_end - $tips_start ) );
+            ?>
         </div>
     </div>
 
-    <div class="container50">
+    <div class="container60">
         <div class="list-container">
             <h3>Create/Run test script
                 <div class="ttype-switcher" title="JS tests type"><span class="active">nightwatch</span><span>casper</span></div>
@@ -103,7 +94,7 @@
 
 </section>
 
-<footer><div class="container">&copy; <?=date('Y');?> Wetail.se All right reserved</div></footer>
+<footer><div class="container">&copy; <?=date('Y');?> Stim, under license of <a href="https://wetail.io" target="_blank">Wetail AB, Sweden</a></div></footer>
 
 <script>
     //init editor
