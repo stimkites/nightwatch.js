@@ -8,7 +8,7 @@
 
   "selenium" : {
     "start_process" : false,
-    "server_path" : "/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/selenium-server-standalone-3.11.0.jar",
+    "server_path" : "/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/selenium.jar",
     "log_path" : "/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/logs/",
     "port" : 5557,
     "cli_args" : {

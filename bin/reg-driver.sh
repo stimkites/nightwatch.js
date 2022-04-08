@@ -6,4 +6,4 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/125541.cloudwaysapps.com/sxxkmartt
 alias phantomjs="/home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/phantomjs"
 
 #REGISTER GHOST DRIVER
-phantomjs /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/slimerjs-1.0.0/vendors/ghostdriver/main.js --hub=http://localhost:5557 --ip=127.0.0.1 --port=$1
+phantomjs /home/125541.cloudwaysapps.com/sxxkmarttt/public_html/bin/slimerjs/vendors/ghostdriver/main.js --hub=http://localhost:5557 --ip=127.0.0.1 --port=$1

@@ -228,13 +228,13 @@ var nwc_js = (function($){
                         save_code();
                         return false;
                     },
-                    "Alt-F9": function(cm){
+                    "Ctrl-Enter": function(cm){
                         toggle_output( cm.getOption("fullScreen") );
                         run_test();
                         return false;
                     },
-                    "Alt-F8": function(cm){
-                        if(!cm.getOption("fullScreen")) return;
+                    "Ctrl-F9": function(cm){
+                        if( ! cm.getOption("fullScreen") ) return;
                         toggle_output(!$('.fs-hover').length);
                         return false;
                     },
